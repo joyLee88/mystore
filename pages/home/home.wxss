@@ -1,0 +1,86 @@
+page {
+  background: #faf9f9;
+}
+.container {
+  position: relative;
+}
+.ser_class {
+  position: fixed; top: 0; left: 0; z-index: 10;
+  width: 750rpx;
+  height: 50px;
+}
+.wrapper {
+  position: absolute; top: 50px; bottom: 0;
+  left: 20rpx; right: 20rpx;
+  height: 900px;
+}
+.wrapper > view {
+  margin-top: 10px;
+}
+.wrapper > .title {
+  width: 100%; padding: 10px 0;
+  display: flex; justify-content: space-between; align-items: center;
+}
+.wrapper > .title > view:first-child {
+  width: 350rpx;
+}
+.wrapper > .title > view:first-child image {
+  width: 38px; height: 38px;
+  vertical-align: top;
+}
+.wrapper > .title > view:first-child text {
+  padding: 2px 10px; font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 800; color: rgb(118, 50, 243);
+}
+.wrapper > .title > view:last-child {
+  width: 400rpx;
+}
+.wrapper > .banner {
+  width: 710rpx;
+}
+/* .wrapper > .banner .banners-swiper {
+  height: 230px;
+}
+.wrapper > .banner .banner_item .banner-image{
+  border-radius: 8px;
+  width: 100%;
+} */
+.wrapper > .icons {
+  display: flex; flex-wrap: wrap;
+  padding: 10px 0; justify-content: space-evenly;
+}
+.wrapper > .icons > view {
+  width: 150rpx; height: 70px; margin: 5px 0;
+  border-radius: 50%;
+  background-color: rgb(228, 157, 5); text-align: center; line-height: 70px;
+}
+.wrapper > .icons > view image {
+  width: 88%; height: 88%; vertical-align: middle;
+}
+.wrapper > .discount {
+  background: #fff;
+  padding: 20px 40rpx;
+  width: 630rpx;
+  border-radius: 30px;
+  box-shadow: 2px 2px 8px #cecece;
+}
+.wrapper > .discount .title {
+  height: 30px; line-height: 30px;
+}
+.wrapper > .discount .title image {
+  width: 24px; height: 24px; padding: 3px; vertical-align: top;
+}
+.wrapper > .discount .title text {
+  font-size: 20px; font-weight: 600;
+  padding-left: 15rpx; line-height: 30px;
+}
+.wrapper > .discount .info {
+  display: flex; overflow: hidden;
+}
+.wrapper > .discount .info > view {
+  width: 200rpx; padding: 0 5rpx;
+}
+.wrapper > .discount .info > view .img {
+  height: 100px; overflow: hidden;
+}
